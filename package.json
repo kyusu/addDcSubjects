@@ -1,0 +1,28 @@
+{
+  "name": "adddcdsubjects",
+  "version": "0.0.1",
+  "description": "A simple shell script which uses exiftool to add new xmp.dc.subject entries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "addDcSubjects": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyusu/addDcSubjects.git"
+  },
+  "keywords": [
+    "xmp"
+  ],
+  "author": "Kyusu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyusu/addDcSubjects/issues"
+  },
+  "homepage": "https://github.com/kyusu/addDcSubjects",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
